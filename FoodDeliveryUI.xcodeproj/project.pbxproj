@@ -11,6 +11,7 @@
 		AD3FC3D622D1A22800D3785E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3FC3D522D1A22800D3785E /* Helper.swift */; };
 		AD3FC3D822D1A35400D3785E /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3FC3D722D1A35400D3785E /* FoodData.swift */; };
 		AD3FC3DA22D1A3F200D3785E /* DetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3FC3D922D1A3F200D3785E /* DetailRow.swift */; };
+		AD3FC3DC22D1A86B00D3785E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3FC3DB22D1A86B00D3785E /* DetailView.swift */; };
 		ADE1479322D197CE0030CF1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1479222D197CE0030CF1D /* AppDelegate.swift */; };
 		ADE1479522D197CE0030CF1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1479422D197CE0030CF1D /* SceneDelegate.swift */; };
 		ADE1479722D197CE0030CF1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1479622D197CE0030CF1D /* ContentView.swift */; };
@@ -24,6 +25,7 @@
 		AD3FC3D522D1A22800D3785E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		AD3FC3D722D1A35400D3785E /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
 		AD3FC3D922D1A3F200D3785E /* DetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRow.swift; sourceTree = "<group>"; };
+		AD3FC3DB22D1A86B00D3785E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		ADE1478F22D197CE0030CF1D /* FoodDeliveryUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE1479222D197CE0030CF1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADE1479422D197CE0030CF1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				ADE1479422D197CE0030CF1D /* SceneDelegate.swift */,
 				ADE1479622D197CE0030CF1D /* ContentView.swift */,
 				AD3FC3D922D1A3F200D3785E /* DetailRow.swift */,
+				AD3FC3DB22D1A86B00D3785E /* DetailView.swift */,
 				ADE1479822D197CF0030CF1D /* Assets.xcassets */,
 				ADE1479D22D197CF0030CF1D /* LaunchScreen.storyboard */,
 				ADE147A022D197CF0030CF1D /* Info.plist */,
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADE1479322D197CE0030CF1D /* AppDelegate.swift in Sources */,
+				AD3FC3DC22D1A86B00D3785E /* DetailView.swift in Sources */,
 				AD3FC3D422D1A1A300D3785E /* Food.swift in Sources */,
 				AD3FC3D622D1A22800D3785E /* Helper.swift in Sources */,
 				AD3FC3DA22D1A3F200D3785E /* DetailRow.swift in Sources */,

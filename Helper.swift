@@ -15,3 +15,15 @@ enum Categories {
     case pizza
     case dessert
 }
+
+func filterData(by category: Categories ) -> [Food] {
+    var filteredArray = [Food]()
+    
+    for food in foodData {
+        if food.category == category {
+            filteredArray.append(food)
+        }
+    }
+    
+    return filteredArray
+}

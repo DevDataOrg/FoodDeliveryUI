@@ -9,13 +9,15 @@
 import SwiftUI
 
 struct DetailRow : View {
+    var food: Food
+    
     var body: some View {
         HStack {
             VStack(alignment: .leading) {
-                Text("BBQ Burger")
+                Text(food.title)
                     .font(.headline)
                     .padding(.top, 10.0)
-                Text("$10.00")
+                Text("$\(food.price)")
                     .font(.caption)
                 
             }
@@ -37,7 +39,7 @@ struct DetailRow : View {
 #if DEBUG
 struct DetailRow_Previews : PreviewProvider {
     static var previews: some View {
-        DetailRow()
+        DetailRow(food: foodData[0])
     }
 }
 #endif
