@@ -23,7 +23,7 @@ struct DetailRow : View {
             }
             Spacer()
             Button(action: {
-                print("Order recieved.")
+                print("Order recieved for \(self.food.title)")
             }) {
                 Text("ORDER")
                     .color(Color.white)

@@ -25,6 +25,7 @@ struct ContentView : View {
                     CategoryView(imageName: "cake", categoryName: "Dessert")
                 }
             }
+            .navigationBarTitle(Text("Food Delivery"))
         }
     }
 }

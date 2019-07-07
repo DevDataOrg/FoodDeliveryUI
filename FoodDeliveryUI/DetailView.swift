@@ -15,6 +15,7 @@ struct DetailView : View {
         List(filterData(by: currentCategory)) { food in
             DetailRow(food: food)
         }
+        .navigationBarTitle(Text(categoryString(for: currentCategory)), displayMode: .inline)
     }
 }
 
