@@ -11,25 +11,28 @@ import SwiftUI
 struct ContentView : View {
     var body: some View {
         List {
-            CategoryView()
-            CategoryView()
-            CategoryView()
-            CategoryView()
+            CategoryView(imageName: "burger", categoryName: "Burger")
+            CategoryView(imageName: "pizza", categoryName: "Pizza")
+            CategoryView(imageName: "pasta", categoryName: "Pasta")
+            CategoryView(imageName: "cake", categoryName: "Dessert")
         }
     }
 }
 
 struct CategoryView : View {
+    var imageName: String
+    var categoryName: String
+    
     var body: some View {
         return ZStack {
-            Image("burger")
+            Image(imageName)
                 .resizable()
-                .aspectRatio(UIImage(named: "burger")!.size, contentMode: .fill)
+                .aspectRatio(UIImage(named: imageName)!.size, contentMode: .fill)
                 .frame(width: 300.0, height: 150.0)
                 .clipped()
                 .cornerRadius(20.0)
             Spacer()
-            Text("Burger")
+            Text(categoryName)
                 .font(.custom("HelveticaNeue-Medium", size: 50.0))
                 .color(Color.white)
         }
